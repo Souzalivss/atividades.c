@@ -24,8 +24,5 @@ int main () {
     } else {
         printf("voce nao está qualificado devido à idade");
     }
-
-
-    
 }
 
