@@ -3,8 +3,9 @@
 #include <time.h>
 
 int main() {
-    int opcao;
+    int opcao, regras;
     int numeroSecreto, palpite;
+    
 
     printf("Menu principal:\n");
     printf("1. Iniciar o jogo\n");
@@ -28,6 +29,33 @@ int main() {
         printf("voce errou!\n");
         printf("Numero secreto: %d\n", numeroSecreto);
     }
+    break;
+
+    case 2:
+    printf("A explicação das regras\n");
+    printf("digite a opçao relacionada as regras do jogo!\n");
+     scanf("%d", &regras);
+    switch (regras)
+     {
+     case 1:
+        printf("regra 1");
+        break;
+     case 2:
+        printf("regra 2!");
+        break;
+     default:
+
+        break;
+     }
+    break;
+
+    case 3:
+    printf("Saindo do jogo\n");
+    break;
+
+    default:
+    ("opção inválida\n");
+
 
     }
 }
