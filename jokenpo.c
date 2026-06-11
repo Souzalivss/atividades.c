@@ -14,7 +14,7 @@ int main() {
     printf("Escolha: ");
     scanf("%d", &escolhaJogador);
 
-    escolhaComputador == rand() % 3 + 1;
+    escolhaComputador = rand() % 3 + 1;
 
     switch (escolhaJogador)
     {
@@ -31,6 +31,7 @@ int main() {
          printf("Opção inválida\n");
         break;
     }
+
     switch (escolhaComputador)
     {
     case 1:
